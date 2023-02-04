@@ -1,0 +1,10 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.page-link{
+    background-color: rgb(4,41,58);
+    color: white;
+    border-radius: 30%;
+}

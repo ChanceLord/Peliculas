@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title> 
+    <!-- link para iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+</head>
+<body style="background-color:#041C32; padding: 0 15px; color:white;">
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #101010;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Arsistema</a>
+      <div>
+        <i style="color:#23a8f5; font-size: 20px; padding: 5px;" class="bi bi-facebook"></i>
+        <i style="color:#23a8f5; font-size: 20px; padding: 5px;" class="bi bi-twitter"></i>
+        <i style="color:#23a8f5; font-size: 20px; padding: 5px;" class="bi bi-instagram"></i>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li><button style="text-decoration: none; color:white; padding: 8px;" class="btn btn-link" type="button" 
+            data-bs-toggle="offcanvas" 
+            data-bs-target="#offcanvasTop" 
+            aria-controls="offcanvasTop"><i class="bi bi-list"></i> Géneros</button></li>
+          
+          
+          <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+
+<!-- contenido offcanva -->
+<div style="background-color:#041C32; color:white;" class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"                   aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h5 style="font-size: 25px;" class="offcanvas-title" id="offcanvasTopLabel">Géneros</h5>
+    <button style="background-color: white;" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    
+            <ul>
+                <li class="ola">
+                <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" href="accion.html">Acción</a></button>
+            </li>
+
+            <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Animación</a></button>
+                </li>
+
+                
+                <li> <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Aventura</a></button>
+                </li>
+
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;"class="dropdown-item" href="#">Bélica</a></button>
+                </li>
+
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Ciencia Ficción</a></button>
+                </li>
+
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Comedia</a></button>
+                </li>
+
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Crimen</a></button>
+                </li>
+
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Documental</a></button>
+                </li>
+
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Drama</a></button>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="accion.html">Familia</a></button>
+                </li>
+
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Fantasía</a></button>
+                </li>
+
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Historia</a></button>
+                </li>
+
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Misterio</a></button>
+                </li>
+
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Música</a></button>
+                </li>
+            
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Romance</a></button>
+                </li>
+
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Suspenso</a></button>
+                </li>
+
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Terror</a></button>
+                </li>
+                
+    
+                <li>
+                    <button style="background-color: white;" type="button" class="btn"><a style="color: black; text-decoration:none;" class="dropdown-item" href="#">Western</a></button>
+                </li>
+            </ul>
+            
+        </div>
+        </div>
+                
+        
+ </div>        
+</div>
+<!-- fin contenido offcanva -->
+
+
+
+
+
+<!-- inicio pelicula por genero -->
+    <div class="container">
+        <div class="row">
+          
+          <div class="block-link">
+            Peliculas por Géneros</div>
+          
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/accion.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="accion.html"><h5 class="card-title"> <br>  Acción</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/animacion.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="accion.html"><h5 class="card-title2"> <br><br> Animación</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/aventura.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="accion.html"><h5 class="card-title2"> <br><br> Aventura</h5></a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/belica.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="belica.html"><h5 class="card-title"> <br> Bélica</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="b-example-divider"></div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/cienciaficcion.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="ciencia ficcion.html"><h5 class="card-title"> <br> Ciencia <br> Ficción</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/comedia.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="comedia.html"><h5 class="card-title2"> <br><br> Comedia</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/crimen.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-deco ration: none;" href="crimen.html"><h5 class="card-title"> <br> Crimen</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/Documental.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="Documental.html"><h5 class="card-title2"> <br><br> Documental</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="b-example-divider"></div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/Drama.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="Drama.html"><h5 class="card-title"> <br> Drama</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/Familia.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="Familia.html"><h5 class="card-title"> <br> Familia</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/Fantasia.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="Fantasía.html"><h5 class="card-title"> <br> Fantasía</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/Historia.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="Historia.html"><h5 class="card-title"> <br> Historia</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="b-example-divider"></div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/Misterio.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="Misterio.html"><h5 class="card-title"> <br> Misterio</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/Musica.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="Música.html"><h5 class="card-title"> <br> Música</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/Romance.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="Romance.html"><h5 class="card-title2"> <br> Romance</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/Suspenso.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="Suspenso.html"><h5 class="card-title2"> <br> Suspenso</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="b-example-divider"></div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/Terror.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="Terror.html"><h5 class="card-title"> <br> Terror</h5></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card text-bg-dark">
+                <img src="img/opacas/Western.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <a style="text-decoration: none;" href="Western.html"><h5 class="card-title"> <br> Western</h5></a>
+                </div>
+              </div>
+            </div>
+            
+        </div>
+      </div>
+        </div>
+    </div>
+    <!-- fin pelicula por genero -->
+
+  
+
+   
+
+
+    <!-- inicio peliculas todos los generos -->
+    
+    <div class="container">
+      <div class="row">
+        <br><br>
+        <div class="block-link">
+          Todas las Peliculas<a href="todo.html" class="rlink">Ver todo <i class="bi bi-arrow-right-square"></i></a></div>
+
+        <div class="col-3">
+          <div class="card text-bg-dark mb-3" >
+            <img src="img/peliculas/xIMqbFYkZx0pfgOLMXDdgsY6dA4.jpg" alt="...">
+          </div>
+        </div>
+        
+        <div class="col-3">
+          <div class="card text-bg-dark mb-3" >
+            <img src="img/peliculas/barbarian.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card text-bg-dark mb-3" >
+            <img src="img/peliculas/eReiljCm4Z6v9LgcWlA2Qsfa54U.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        
+        <div class="col-3">
+          <div class="card text-bg-dark mb-3" >
+            <img src="img/peliculas/coiqkol7YYXOKeZiVROkYHhd7wv.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card text-bg-dark mb-3" >
+            <img src="img/peliculas/mAqgFQxaBaLkcQBRQf9YnAz9sNQ.jpg" alt="...">
+          </div>
+        </div>
+        
+        <div class="col-3">
+          <div class="card text-bg-dark mb-3" >
+            <img src="img/peliculas/9W8BgtTZl44L95IMUls5uO2ulzV.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card text-bg-dark mb-3" >
+            <img src="img/peliculas/ksxiXqwPuEjh3gct1zUpyzNoQFt.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        
+        <div class="col-3">
+          <div class="card text-bg-dark mb-3" >
+            <img src="img/peliculas/t79AdRV97Yz8FZDmBwxlDOoQi7F.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+
+      </div>
+  </div>
+<!-- fin peliculas todos los generos -->
+
+
+
+  
+
+
+
+
+
+      
+    <!-- popperjs link js de la web-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <!--.min.jss  llamar el archivo js de la carpeta que tengo-->
+    <script src="js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+css
+ul {
+  display: flex;
+}
+
+ li {
+  padding:10px;
+  list-style:none;
+}
+
+.btn{
+  border-radius: 18px;
+}
+
+
+.block-link {
+    background: rgb(4,41,58);
+    background: linear-gradient(137deg, rgba(4,41,58,1) 25%, rgba(6,70,99,1) 100%);
+  font-weight: 600;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0px 0% 4px 0px;
+  padding-left: 5px; }
+
+  .block-link a.rlink {
+  float: right;
+  font-size: 18px;
+  padding-right: 40px;
+  text-decoration: none;
+  color: white;     
+}
+
+h5{
+    color: rgb(211, 208, 208);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 50px;
+    text-decoration: none;
+    word-break: break-all
+}
+
+.card-title2{
+  font-size: 41px;
+}
+
+.b-example-divider  {
+  height: 3rem; 
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+
+
+--------------------------------------------
+ 
+
+
+pasar a gris fotos
+
+-webkit-filter: grayscale(1); 
+    filter: gray; 
+    filter: grayscale(2); 
+
+
+ <div class="b-example-divider"></div>
+
+ .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
